@@ -1,0 +1,95 @@
+body {
+	font-family: sans-serif;
+}
+::selection {
+	background: black;
+}
+h1,h3,h4,footer {
+	color: deeppink;
+	font-family: fantasy;
+	font-size: 30px;
+}
+h2 {
+	color: deeppink;
+	font-family: fantasy;
+	font-size: 35px;
+}
+p {
+	color: black;
+	font-size: 25px;
+}
+ul {
+	color: black;
+	font-size: 25px;
+}
+ol {
+	color: black;
+	font-size: 25px;
+}
+.hero_image {
+	background-image: url("images/the_world.jpg");
+	background-position: center;
+	padding: 25px;
+	color: ghostwhite;
+	text-align: center;
+	height: 100px;
+}
+.country_logo {
+	width: 20em;
+}
+.country_link {
+	display:block;
+	float: left;
+	background-color: aqua;
+	height: 250px;
+	width: 25%;
+	background-size: cover;
+	margin-bottom: 50px;
+	text-align: center;
+	padding-top: 250px;
+	color: white;
+	font-size: 25px;
+}
+.country_link1 {
+	background-image: url(images/turkish_delight.jpg);
+}
+.country_link2 {
+	background-image: url(images/macaron.jpg);
+}
+.country_link3 {
+	background-image: url(images/mousse_cake.jpg);
+}
+.country_link4 {
+	background-image: url(images/spanish_flan.jpg);
+}
+.about_content {
+	max-width: 60%;
+	margin: auto;
+}
+.nav-element {
+	list-style-type: none;
+	display: inline; 
+}
+nav {
+	float: right;
+	width: 50%;
+}
+.cite-name {
+	float: left;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+.cite-name-link {
+	color: white;
+	font-size: 40px;
+}
+.nav {
+	color: white;
+	font-size: 30px;
+	font-family: fantasy
+}
+.background-content {
+	max-width: 60%;
+	margin: auto;
+}
