@@ -50,6 +50,9 @@ ol {
 	color: white;
 	font-size: 25px;
 }
+.country_link:hover {
+	text-shadow: 4px 4px 6px black;
+}
 .country_link1 {
 	background-image: url(images/turkish_delight.jpg);
 }
@@ -87,9 +90,12 @@ nav {
 .nav {
 	color: white;
 	font-size: 30px;
-	font-family: fantasy
+	font-family: fantasy;
 }
 .background-content {
 	max-width: 60%;
 	margin: auto;
+}
+.lokma {
+	width: 20px;
 }
